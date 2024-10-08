@@ -3,10 +3,14 @@ import React, { useState } from "react";
 function FoodOrderForm() {
   return (
     <form>
-      <input id='name' />
-      <input id='phone' />
-      <input id='address' />
-      <input id='order' />
+      <label htmlFor="name">Name:</label>
+      <input id="name" />
+      <label htmlFor="phone">Phone:</label>
+      <input id="phone" />
+      <label htmlFor="address">Address:</label>
+      <input id="address" />
+      <label htmlFor="order">Order:</label>
+      <input id="order" />
     </form>
   );
 }
