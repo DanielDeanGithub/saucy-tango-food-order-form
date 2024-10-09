@@ -11,6 +11,7 @@ function FoodOrderForm() {
       <input id="address" />
       <label htmlFor="order">Order:</label>
       <input id="order" />
+      <button type="submit">Submit Order</button>
     </form>
   );
 }
