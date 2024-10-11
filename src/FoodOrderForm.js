@@ -15,7 +15,7 @@ function FoodOrderForm() {
       <label htmlFor="address">Address:</label>
       <input id="address" value={address} onChange={e => setAddress(e.target.value)}/>
       <label htmlFor="order">Order:</label>
-      <input id="order" value={order}/>
+      <input id="order" value={order} onChange={e => setOrder(e.target.value)}/>
       <button type="submit">Submit Order</button>
     </form>
   );
