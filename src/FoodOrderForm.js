@@ -6,6 +6,10 @@ function FoodOrderForm() {
   const [address, setAddress] = useState("");
   const [order, setOrder] = useState("");
 
+  const handleSubmit = e => {
+    e.preventDefault();
+  };
+
   return (
     <form>
       <label htmlFor="name">Name:</label>
