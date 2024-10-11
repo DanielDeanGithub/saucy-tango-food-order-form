@@ -17,7 +17,7 @@ Please show your confirmation number for pickup.`)
   };
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <label htmlFor="name">Name:</label>
       <input id="name" value={name} onChange={e => setName(e.target.value)}/>
       <label htmlFor="phone">Phone:</label>
